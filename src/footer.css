@@ -1,0 +1,22 @@
+.fcontainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    background-color: maroon;
+    color: white;
+    margin-bottom: 0;
+}
+.fcontainer ul{
+    list-style: none;
+}
+.fcontainer li{
+    margin: 20px;
+    text-align: left;
+}
+.tlist{
+    font:menu;
+    font-weight: bold;
+}
+body{
+    font-family: Airbnb Cereal VF, Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}

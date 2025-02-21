@@ -1,0 +1,32 @@
+.product-list {
+    padding: 20px;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .product-card {
+    border: none;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .product-image {
+    width: -webkit-fill-available;
+    height: 200px;
+    border-radius: 5px;
+  }
+  
+  .product-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: green;
+  }
+  
